@@ -30,10 +30,7 @@ spec:
     spec:
       containers:
       - name: coworking
-        image: 551867257934.dkr.ecr.us-east-1.amazonaws.com/coworking-checkin:latest
-        # command: ["/bin/sh"]
-        # args: ["-c", "while true; do echo hello; sleep 10;done"]
-        # image: nginx
+        image: 325550387564.dkr.ecr.us-east-1.amazonaws.com/coworking-checkin:latest
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
